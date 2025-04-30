@@ -17,6 +17,8 @@ public class prueba2 {
 		DateTimeFormatter df = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		boolean error = true;
 		
+		System.out.println("Esto es una prueba");
+		
 		do {
 			System.out.println("Introduce una fecha de nacimiento");
 			try {
